@@ -11,6 +11,9 @@ patchedDependencies:
   re2:
     hash: 018babd22b7ce951bcd10d6246f1e541a7ac7ba212f7fa8985e774ece67d08e1
     path: patches/re2.patch
+  xmldoc:
+    hash: b71ac7f6b2ebf72d668c93269f9814ea6d820c4e9ec216287d02f3eb8c32cdbf
+    path: patches/xmldoc.patch
 
 importers:
 
@@ -357,7 +360,7 @@ importers:
         version: 1.1.0
       xmldoc:
         specifier: 2.0.0
-        version: 2.0.0
+        version: 2.0.0(patch_hash=b71ac7f6b2ebf72d668c93269f9814ea6d820c4e9ec216287d02f3eb8c32cdbf)
       yaml:
         specifier: 2.7.1
         version: 2.7.1
@@ -13345,7 +13348,7 @@ snapshots:
       js-yaml: 4.1.0
       write-file-atomic: 3.0.3
 
-  xmldoc@2.0.0:
+  xmldoc@2.0.0(patch_hash=b71ac7f6b2ebf72d668c93269f9814ea6d820c4e9ec216287d02f3eb8c32cdbf):
     dependencies:
       sax: 1.4.1
 
