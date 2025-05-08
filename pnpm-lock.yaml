@@ -11,9 +11,6 @@ patchedDependencies:
   re2:
     hash: 018babd22b7ce951bcd10d6246f1e541a7ac7ba212f7fa8985e774ece67d08e1
     path: patches/re2.patch
-  xmldoc:
-    hash: b71ac7f6b2ebf72d668c93269f9814ea6d820c4e9ec216287d02f3eb8c32cdbf
-    path: patches/xmldoc.patch
 
 importers:
 
@@ -359,8 +356,8 @@ importers:
         specifier: 1.1.0
         version: 1.1.0
       xmldoc:
-        specifier: 2.0.0
-        version: 2.0.0(patch_hash=b71ac7f6b2ebf72d668c93269f9814ea6d820c4e9ec216287d02f3eb8c32cdbf)
+        specifier: 2.0.1
+        version: 2.0.1
       yaml:
         specifier: 2.7.1
         version: 2.7.1
@@ -6312,8 +6309,8 @@ packages:
     resolution: {integrity: sha512-LwyucHy0uhWqbrOkh9cBluZBeNVxzHjDaE9mwepZG3n3ZlbM4v3ndrFw51zW/NXYFFqP+QWZ72ihtLWTh05e4Q==}
     engines: {node: '>=10.13'}
 
-  xmldoc@2.0.0:
-    resolution: {integrity: sha512-6ZsqsqEkIKzWLqGyTN+j+ZRc/vxQHtnlHzSvj3JvM4XZPoZVJxj6fyz0XvwKAf1vh+kSN/HibO1/iJLf3F3LRw==}
+  xmldoc@2.0.1:
+    resolution: {integrity: sha512-sOOqgsjl3PU6iBw+fBUGAkTCE+JFK+sBaOL3pnZgzqk2/yvOD7RlFmZtDRJAEBzdpOYxSXyOQH4mjubdfs3MSg==}
     engines: {node: '>=12.0.0'}
 
   xtend@4.0.2:
@@ -13348,7 +13345,7 @@ snapshots:
       js-yaml: 4.1.0
       write-file-atomic: 3.0.3
 
-  xmldoc@2.0.0(patch_hash=b71ac7f6b2ebf72d668c93269f9814ea6d820c4e9ec216287d02f3eb8c32cdbf):
+  xmldoc@2.0.1:
     dependencies:
       sax: 1.4.1
 
